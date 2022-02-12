@@ -15,10 +15,10 @@ export default function Home() {
   return (
     <div className="w-full h-screen grid xl:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-4 p-5 relative">
       <div className="w-full text-center">
-        <h1 className="greeting text-8xl text-left font-bold sm:mt-4 sm:text-center">Hello,</h1>
+        <h1 className="greeting text-8xl text-left font-bold sm:mt-[4rem] xl:mt-[0rem] sm:text-center">Hello</h1>
         <h1 className="presentation text-2xl font-semibold">I am Yeridi Crhis Software Developer</h1>
       </div>
-      <div className="model w-full xl:h-[75%] sm:h-[80%]">
+      <div className="model w-full xl:h-[75%] sm:h-[80%] sm:mb-5">
         <Model3D />
       </div>
     </div>

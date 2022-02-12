@@ -10,7 +10,6 @@ const Header = () => {
     const handleOpen = () => {
         tl.to('.options', { y: 0, opacity: 1 })
         tl.reversed() ? tl.play() : tl.reverse();
-        console.log('funciona')
     }
 
 
