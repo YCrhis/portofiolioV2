@@ -16,7 +16,7 @@ export default function Home() {
     <div className="w-full h-screen grid xl:grid-cols-2 sm:grid-cols-1 items-center justify-center gap-4 p-5 relative">
       <div className="w-full text-center">
         <h1 className="greeting text-8xl text-left font-bold sm:mt-4 sm:text-center">Hello,</h1>
-        <h1 className="presentation text-2xl font-semibold"> &nbsp; &nbsp;I'm Yeridi Crhis Software Developer</h1>
+        <h1 className="presentation text-2xl font-semibold">I'm Yeridi Crhis Software Developer</h1>
       </div>
       <div className="model w-full xl:h-[75%] sm:h-[80%]">
         <Model3D />
